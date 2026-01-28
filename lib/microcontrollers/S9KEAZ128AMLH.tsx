@@ -1,15 +1,15 @@
 import type { ChipProps } from "@tscircuit/props"
 
 const pinLabels = {
-  pin1: ["PB13"],
-  pin2: ["PB14"],
-  pin3: ["PB15"],
-  pin4: ["PB16"],
+  pin1: ["pin1"],
+  pin2: ["pin2"],
+  pin3: ["pin3"],
+  pin4: ["pin4"],
   pin5: ["pin5"],
-  pin6: ["PA13"],
-  pin7: ["pin7"],
+  pin6: ["pin6"],
+  pin7: ["VDD1"],
   pin8: ["pin8"],
-  pin9: ["pin9"],
+  pin9: ["VREFL"],
   pin10: ["pin10"],
   pin11: ["pin11"],
   pin12: ["pin12"],
@@ -20,63 +20,63 @@ const pinLabels = {
   pin17: ["pin17"],
   pin18: ["pin18"],
   pin19: ["pin19"],
-  pin20: ["PB21"],
-  pin21: ["PB22"],
-  pin22: ["PB23"],
+  pin20: ["pin20"],
+  pin21: ["pin21"],
+  pin22: ["pin22"],
   pin23: ["pin23"],
-  pin24: ["PA23VREF_POS"],
+  pin24: ["pin24"],
   pin25: ["pin25"],
   pin26: ["pin26"],
   pin27: ["pin27"],
-  pin28: ["PB26"],
-  pin29: ["PB27"],
+  pin28: ["pin28"],
+  pin29: ["pin29"],
   pin30: ["pin30"],
   pin31: ["pin31"],
-  pin32: ["VCORE"],
+  pin32: ["pin32"],
   pin33: ["pin33"],
-  pin34: ["PA1"],
-  pin35: ["PA28"],
-  pin36: ["PA29"],
-  pin37: ["PA30"],
-  pin38: ["NRST"],
+  pin34: ["pin34"],
+  pin35: ["pin35"],
+  pin36: ["pin36"],
+  pin37: ["pin37"],
+  pin38: ["pin38"],
   pin39: ["pin39"],
-  pin40: ["VDD"],
-  pin41: ["VSS"],
+  pin40: ["VSS"],
+  pin41: ["VDD2"],
   pin42: ["pin42"],
   pin43: ["pin43"],
   pin44: ["pin44"],
   pin45: ["pin45"],
   pin46: ["pin46"],
-  pin47: ["PB0"],
-  pin48: ["PB1"],
+  pin47: ["pin47"],
+  pin48: ["pin48"],
   pin49: ["pin49"],
-  pin50: ["PB2"],
-  pin51: ["PB3"],
-  pin52: ["PB4"],
-  pin53: ["PB5"],
-  pin54: ["PA8"],
+  pin50: ["pin50"],
+  pin51: ["pin51"],
+  pin52: ["pin52"],
+  pin53: ["pin53"],
+  pin54: ["pin54"],
   pin55: ["pin55"],
   pin56: ["pin56"],
-  pin57: ["PA11"],
-  pin58: ["PB6"],
-  pin59: ["PB7"],
-  pin60: ["PB8"],
-  pin61: ["PB9"],
-  pin62: ["PB10"],
+  pin57: ["pin57"],
+  pin58: ["pin58"],
+  pin59: ["pin59"],
+  pin60: ["pin60"],
+  pin61: ["pin61"],
+  pin62: ["pin62"],
   pin63: ["pin63"],
-  pin64: ["PB12"]
+  pin64: ["pin64"]
 } as const
 
-export const MSPM0G3507SPMR = (props: ChipProps<typeof pinLabels>) => {
+export const S9KEAZ128AMLH = (props: ChipProps<typeof pinLabels>) => {
   return (
     <chip
       pinLabels={pinLabels}
       supplierPartNumbers={{
   "jlcpcb": [
-    "C22389960"
+    "C133172"
   ]
 }}
-      manufacturerPartNumber="MSPM0G3507SPMR"
+      manufacturerPartNumber="S9KEAZ128AMLH"
       footprint={<footprint>
         <smtpad portHints={["pin1"]} pcbX="-3.750056000000029mm" pcbY="-5.688203000000009mm" width="0.29999939999999997mm" height="1.499997mm" shape="rect" />
 <smtpad portHints={["pin2"]} pcbX="-3.249930000000006mm" pcbY="-5.688203000000009mm" width="0.29999939999999997mm" height="1.499997mm" shape="rect" />
@@ -153,7 +153,7 @@ export const MSPM0G3507SPMR = (props: ChipProps<typeof pinLabels>) => {
 <silkscreenpath route={[{"x":-4.361256200000014,"y":-5.47817040000001},{"x":-4.509997255997689,"y":-5.327528370296079},{"x":-4.359986200000009,"y":-5.178150975985275},{"x":-4.209975144002357,"y":-5.327528370296079},{"x":-4.3587162000000035,"y":-5.47817040000001}]} />
       </footprint>}
       cadModel={{
-        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=7e9b9111dcfd48d3add0eab11d882721&pn=C22389960",
+        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=7e9b9111dcfd48d3add0eab11d882721&pn=C133172",
         rotationOffset: { x: 0, y: 0, z: 0 },
         positionOffset: { x: 0, y: 0.011810999999994465, z: -5.638201499999998 },
       }}
