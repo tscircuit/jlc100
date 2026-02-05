@@ -1,7 +1,7 @@
+import { GD32F103C8T6 } from "./lib/processors/index"
+
 export default () => (
-  <board>
-    <resistor resistance="1k" footprint="0402" name="R1" />
-    <capacitor capacitance="1000pF" footprint="0402" name="C1" />
-    <trace from=".R1 > .pin1" to=".C1 > .pin1" />
+  <board width="40mm" height="40mm">
+    <GD32F103C8T6 name="U1" />
   </board>
 )
