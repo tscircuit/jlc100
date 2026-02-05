@@ -1,30 +1,40 @@
 # jlc100
 
-A tscircuit library and KiCad PCM URL for getting the top 100 JLC components in each popular category
+A tscircuit component library and KiCad PCM package for popular JLCPCB components. This library provides ready-to-use components from JLCPCB's top 100 most popular parts in each category.
 
-# popular categories
-Embedded Processors - MCUs are the core of most projects
-Power Management - Voltage regulators, DC-DC converters
-Connectors - USB-C, pin headers, JST
-Optoelectronics - LEDs, addressable LEDs
-Transistors - MOSFETs for switching
-IoT/Communication - WiFi/BT modules
-Sensors - Common sensors
+## Current Status
 
+Work in progress. Currently available categories:
 
-Here are JLCPCB's main categories with component counts:
+- **Processors** - 30 components (STM32, GD32, CH32V, ATmega, MSP430, etc.)
+- **Microcontrollers** - 32 components (RP2040, STM32G/L series, STM8, etc.)
 
-Category	Components	Popular For
-Connectors	1.67M	USB-C, headers, JST, FFC
-Resistors	1.55M	SMD resistors, arrays
-Capacitors	1M	MLCCs, electrolytics
-Power Management (PMIC)	180K	Regulators, DC-DC, battery mgmt
-Transistors/Thyristors	110K	MOSFETs, BJTs, IGBTs
-Optoelectronics	83K	LEDs, RGB, WS2812, photodiodes
-Embedded Processors	79K	STM32, ESP32, RP2040, ATmega
-Sensors	40K	Temperature, accelerometers, touch
-Relays	30K	Signal, power relays
-Data Acquisition	25K	ADCs, DACs
-RF and Wireless	21K	Antennas, RF switches
-Motor Driver ICs	11K	Stepper, BLDC drivers
-IoT/Communication	6K	WiFi, Bluetooth, LoRa modules
+## Target Categories
+
+| Category | Status |
+|----------|--------|
+| Processors | In progress |
+| Microcontrollers | In progress |
+| Power Management | Planned |
+| Connectors | Planned |
+| Optoelectronics | Planned |
+| Transistors | Planned |
+| IoT/Communication | Planned |
+| Sensors | Planned |
+
+## Development
+
+```bash
+bun install
+bun run dev
+bun run build
+bun run typecheck
+bun run generate:exports   # After adding new components
+```
+
+## KiCad Export
+
+```bash
+tsci build --kicad-library  # Generate KiCad library
+tsci build --kicad-pcm      # Generate KiCad PCM package
+```
