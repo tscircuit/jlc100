@@ -1,5 +1,5 @@
 {
-  "name": "@tsci/MustafaMulla29.jlc100",
+  "name": "@tsci/tscircuit.jlc100",
   "version": "1.0.0",
   "description": "JLC Electronics Top 100 Components - A tscircuit component library for popular JLCPCB parts",
   "main": "dist/index.js",
