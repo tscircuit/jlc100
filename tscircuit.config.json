@@ -1,6 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/npm/@tscircuit/cli/types/tscircuit.config.schema.json",
   "mainEntrypoint": "lib/index.ts",
+  "previewComponentPath": "lib/microcontrollers/GD32E230C8T6.tsx",
   "kicadLibraryEntrypointPath": "lib/jlc100-library.ts",
   "kicadLibraryName": "jlc100",
   "build": {
