@@ -1,12 +1,12 @@
 import type { ChipProps } from "@tscircuit/props"
 
 const pinLabels = {
-  pin1: ["VDD1"],
+  pin1: ["VBAT"],
   pin2: ["PC13"],
   pin3: ["PC14-OSC32_IN"],
   pin4: ["PC15-OSC32_OUT"],
-  pin5: ["PH0-OSC_IN"],
-  pin6: ["PH1-OSC_OUT"],
+  pin5: ["PF0-OSC_IN"],
+  pin6: ["PF1-OSC_OUT"],
   pin7: ["NRST"],
   pin8: ["VSSA"],
   pin9: ["VDDA"],
@@ -24,7 +24,7 @@ const pinLabels = {
   pin21: ["PB10"],
   pin22: ["PB11"],
   pin23: ["VSS1"],
-  pin24: ["VDD2"],
+  pin24: ["VDD1"],
   pin25: ["PB12"],
   pin26: ["PB13"],
   pin27: ["PB14"],
@@ -35,8 +35,8 @@ const pinLabels = {
   pin32: ["PA11"],
   pin33: ["PA12"],
   pin34: ["PA13"],
-  pin35: ["VSS2"],
-  pin36: ["VDDIO2"],
+  pin35: ["PF6"],
+  pin36: ["PF7"],
   pin37: ["PA14"],
   pin38: ["PA15"],
   pin39: ["PB3"],
@@ -47,20 +47,20 @@ const pinLabels = {
   pin44: ["BOOT0"],
   pin45: ["PB8"],
   pin46: ["PB9"],
-  pin47: ["VSS3"],
-  pin48: ["VDD3"]
+  pin47: ["VSS2"],
+  pin48: ["VDD2"]
 } as const
 
-export const STM32L051C8T6TR = (props: ChipProps<typeof pinLabels>) => {
+export const GD32F330C8T6 = (props: ChipProps<typeof pinLabels>) => {
   return (
     <chip
       pinLabels={pinLabels}
       supplierPartNumbers={{
   "jlcpcb": [
-    "C2802165"
+    "C129291"
   ]
 }}
-      manufacturerPartNumber="STM32L051C8T6TR"
+      manufacturerPartNumber="GD32F330C8T6"
       footprint={<footprint>
         <smtpad portHints={["pin1"]} pcbX="-2.7500579999999957mm" pcbY="-4.249927999999997mm" width="0.27000199999999996mm" height="1.499997mm" shape="rect" />
 <smtpad portHints={["pin2"]} pcbX="-2.2499319999999727mm" pcbY="-4.249927999999997mm" width="0.27000199999999996mm" height="1.499997mm" shape="rect" />
@@ -114,7 +114,7 @@ export const STM32L051C8T6TR = (props: ChipProps<typeof pinLabels>) => {
 <silkscreenpath route={[{"x":-3.3899855999999886,"y":-4.059986800000004},{"x":-3.5791606142161356,"y":-3.9210693508058796},{"x":-3.506066828896735,"y":-3.698038989101562},{"x":-3.2713643711032603,"y":-3.698038989101562},{"x":-3.1982705857838596,"y":-3.9210693508058796},{"x":-3.3874456000000066,"y":-4.059986800000004}]} />
       </footprint>}
       cadModel={{
-        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=a4b96ad857dc48c08dab3d0efdf20aec&pn=C2802165",
+        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=a4b96ad857dc48c08dab3d0efdf20aec&pn=C129291",
         rotationOffset: { x: 0, y: 0, z: 0 },
         positionOffset: { x: 2.842170943040401e-14, y: -7.105427357601002e-15, z: -4.199926499999994 },
       }}
