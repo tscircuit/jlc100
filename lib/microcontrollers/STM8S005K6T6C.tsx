@@ -1,50 +1,50 @@
 import type { ChipProps } from "@tscircuit/props"
 
 const pinLabels = {
-  pin1: ["PB9"],
-  pin2: ["PC14-OSC32IN"],
-  pin3: ["PC15-OSC32OUT"],
-  pin4: ["pin4"],
-  pin5: ["pin5"],
-  pin6: ["NRST"],
-  pin7: ["PA0"],
-  pin8: ["PA1"],
-  pin9: ["PA2"],
-  pin10: ["PA3"],
-  pin11: ["PA4"],
-  pin12: ["PA5"],
-  pin13: ["PA6"],
-  pin14: ["PA7"],
-  pin15: ["PB0"],
-  pin16: ["PB1"],
-  pin17: ["PB2"],
-  pin18: ["PA8"],
-  pin19: ["PA9"],
-  pin20: ["PC6"],
-  pin21: ["PA10"],
+  pin1: ["NRST"],
+  pin2: ["pin2"],
+  pin3: ["pin3"],
+  pin4: ["VSS"],
+  pin5: ["VCAP"],
+  pin6: ["VDD"],
+  pin7: ["VDDIO"],
+  pin8: ["pin8"],
+  pin9: ["VDDA"],
+  pin10: ["VSSA"],
+  pin11: ["pin11"],
+  pin12: ["pin12"],
+  pin13: ["pin13"],
+  pin14: ["pin14"],
+  pin15: ["pin15"],
+  pin16: ["pin16"],
+  pin17: ["pin17"],
+  pin18: ["pin18"],
+  pin19: ["pin19"],
+  pin20: ["pin20"],
+  pin21: ["pin21"],
   pin22: ["pin22"],
   pin23: ["pin23"],
-  pin24: ["PA13"],
-  pin25: ["PA14-BOOT0"],
-  pin26: ["PA15"],
-  pin27: ["PB3"],
-  pin28: ["PB4"],
-  pin29: ["PB5"],
-  pin30: ["PB6"],
-  pin31: ["PB7"],
-  pin32: ["PB8"]
+  pin24: ["pin24"],
+  pin25: ["pin25"],
+  pin26: ["pin26"],
+  pin27: ["pin27"],
+  pin28: ["pin28"],
+  pin29: ["pin29"],
+  pin30: ["pin30"],
+  pin31: ["pin31"],
+  pin32: ["pin32"]
 } as const
 
-export const STM32G030K6T6 = (props: ChipProps<typeof pinLabels>) => {
+export const STM8S005K6T6C = (props: ChipProps<typeof pinLabels>) => {
   return (
     <chip
       pinLabels={pinLabels}
       supplierPartNumbers={{
   "jlcpcb": [
-    "C529331"
+    "C37925"
   ]
 }}
-      manufacturerPartNumber="STM32G030K6T6"
+      manufacturerPartNumber="STM8S005K6T6C"
       footprint={<footprint>
         <smtpad portHints={["pin1"]} pcbX="-2.8000959999999395mm" pcbY="-4.242054000000053mm" width="0.44800520000000005mm" height="1.6839946000000001mm" shape="rect" />
 <smtpad portHints={["pin2"]} pcbX="-1.99999600000001mm" pcbY="-4.242054000000053mm" width="0.44800520000000005mm" height="1.6839946000000001mm" shape="rect" />
@@ -85,7 +85,7 @@ export const STM32G030K6T6 = (props: ChipProps<typeof pinLabels>) => {
 <silkscreenpath route={[{"x":-3.1713932000000113,"y":-3.1713932000000113},{"x":-3.1713932000000113,"y":3.1713932000000113},{"x":3.1713931999998977,"y":3.1713932000000113},{"x":3.1713931999998977,"y":-3.1713932000000113},{"x":-3.1713932000000113,"y":-3.1713932000000113}]} />
       </footprint>}
       cadModel={{
-        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=28eea09222224639a3999749955a1ff3&pn=C529331",
+        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=28eea09222224639a3999749955a1ff3&pn=C37925",
         rotationOffset: { x: 0, y: 0, z: 0 },
         positionOffset: { x: -885.698, y: 841.629, z: -4.284051300000056 },
       }}

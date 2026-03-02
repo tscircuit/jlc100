@@ -4,11 +4,11 @@ const pinLabels = {
   pin1: ["pin1"],
   pin2: ["pin2"],
   pin3: ["pin3"],
-  pin4: ["NRST"],
+  pin4: ["pin4"],
   pin5: ["pin5"],
   pin6: ["pin6"],
-  pin7: ["VSS"],
-  pin8: ["VCAP"],
+  pin7: ["GND"],
+  pin8: ["pin8"],
   pin9: ["VDD"],
   pin10: ["pin10"],
   pin11: ["pin11"],
@@ -23,16 +23,16 @@ const pinLabels = {
   pin20: ["pin20"]
 } as const
 
-export const STM8S003F3P6TR = (props: ChipProps<typeof pinLabels>) => {
+export const N76E003AT20 = (props: ChipProps<typeof pinLabels>) => {
   return (
     <chip
       pinLabels={pinLabels}
       supplierPartNumbers={{
   "jlcpcb": [
-    "C52717"
+    "C82751"
   ]
 }}
-      manufacturerPartNumber="STM8S003F3P6TR"
+      manufacturerPartNumber="N76E003AT20"
       footprint={<footprint>
         <smtpad portHints={["pin1"]} pcbX="-2.925064000000134mm" pcbY="-2.870961999999963mm" width="0.3640074mm" height="1.7420082mm" shape="rect" />
 <smtpad portHints={["pin2"]} pcbX="-2.2750780000000077mm" pcbY="-2.870961999999963mm" width="0.3640074mm" height="1.7420082mm" shape="rect" />
@@ -57,7 +57,7 @@ export const STM8S003F3P6TR = (props: ChipProps<typeof pinLabels>) => {
 <silkscreenpath route={[{"x":-3.326206200000115,"y":-1.7713960000000952},{"x":-3.326206200000115,"y":1.7713959999999815},{"x":3.3262061999998878,"y":1.7713959999999815},{"x":3.3262061999998878,"y":-1.7713960000000952},{"x":-3.326206200000115,"y":-1.7713960000000952}]} />
       </footprint>}
       cadModel={{
-        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=f8ba5b4174b9490d8c445fbe2ed40b80&pn=C52717",
+        objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=f8ba5b4174b9490d8c445fbe2ed40b80&pn=C82751",
         rotationOffset: { x: 0, y: 0, z: 90 },
         positionOffset: { x: -911.4749360000001, y: 683.720883, z: 4.0500061999999994 },
       }}

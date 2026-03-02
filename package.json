@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/node": "^25.0.10",
     "@types/react": "^19.2.9",
-    "tscircuit": "^0.0.1210",
+    "tscircuit": "^0.0.1396",
     "typescript": "^5.0.0"
   },
   "dependencies": {
